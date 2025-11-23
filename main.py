@@ -17,11 +17,8 @@ def main ():
     print("--------- Character Count -------")
     
     for item in sorted_chars:
-        this_dict = item
-        print(f"{this_dict["char"]}: {this_dict["num"]}")
+        print(f"{item["char"]}: {item["num"]}")
 
     print("============= END ===============")
-
-    
 
 main()
